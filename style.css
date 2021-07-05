@@ -57,3 +57,32 @@ h4{
   background-size: 100px 250px;
   margin-bottom: 100px;
 }
+.experiences{
+  display: flex;
+  background-image: url(exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size:70px 150px;
+}
+.experiences-section{
+  margin-bottom: 100px;
+}
+.half-width4{
+  width: 50%;
+  padding-left: 3px;
+  margin-left: 40px;
+  margin-right: 20px;
+  border-left: 4px solid;
+  border-image: linear-gradient(blue,skyblue);
+  border-image-slice: 1;
+  box-shadow: 4px 4px 2px 2px grey;
+}
+.half-width5{
+  width: 50%;
+  margin-left: 20px;
+  margin-right: 40px;
+  border-left: 4px solid;
+  border-image: linear-gradient(green,yellowgreen);
+  border-image-slice: 1;
+  box-shadow: 4px 4px 2px 2px grey;
+}
